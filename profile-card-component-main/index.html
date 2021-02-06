@@ -1,29 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-<link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">
-<link rel="icon" type="image/png" sizes="32x32" href="C:\Users\Micha\Downloads\profile-card-component-main\profile-card-component-main\images\favicon-32x32.png">
-<link rel="stylesheet"  href="/C:\Users\Micha\Downloads\profile-card-component-main\profile-card-component-main\styles.css">
-  <title>Frontend Mentor | Profile card component</title>
 
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- displays site properly based on user's device -->
 
-</head>
-<body>
-<div class= "background-top" >
-<img src="images/bg-pattern-top.svg">
-<div class="container-fluid">
-<div class= "card-wrapper" id="profileCard">
-<img class="selfie" src="images/Myselfie.jpg" alt="selfie">
-<h2>Michael Cook 39 Tampa Bay, Fl 10K Followers 8.5k likes 2.5k photos</h2>
-</div>
-</div>
-</div>
-<div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>
-    Coded by <a href="#">Michael Cook</a>
-  </div>
-</body>
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <title>Frontend Mentor | Profile card component</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+
+  </head>
+  <body>
+    <div class="card-container">
+      <div class="card">
+        <div class="card-header">
+          <img class="img-fluid" src="C:\Users\Micha\Downloads\profile-card-component-main\profile-card-component-main\images\bg-pattern-card.svg" alt="card image">
+          <div class="img-profile-container">
+            <img class="img-fluid" src="C:\Users\Micha\Downloads\profile-card-component-main\profile-card-component-main\images\Myselfie.jpg" alt="profile">
+          </div>
+        </div>
+        <div class="card-body">
+          <br><br>
+          <div class="name">
+            <strong>Michael Cook</strong>&nbsp39
+          </div>
+          <br>
+          <div class="country">
+            Tampa Bay, Fl
+          </div>
+        </div>
+        <div class="card-footer">
+          <div class="footer-div">
+            <strong>80K</strong>
+            <h6>Followers</h6>
+          </div>
+          <div class="footer-div">
+            <strong>803K</strong>
+            <h6>Likes</h6>
+          </div>
+          <div class="footer-div">
+            <strong>1.4K</strong>
+            <h6>Photos</h6>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="circle-images">
+      <div class="circle-top_container">
+        <img src="images/bg-pattern-top.svg" class="circle-top" alt="circle top" />
+      </div>
+      <div class="circle-bottom_container">
+        <img src="images/bg-pattern-bottom.svg" class="circle-bottom" alt="circle bottom" />
+      </div>
+    </div>
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a>.
+      Coded by Michael Cook <a href="#"> </a>.
+    </div>
+  </body>
 </html>
